@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Tugas Kalkulator</title>
+  </head>
+  <body>
+    <!-- Pembungkus utama -->
+    <div class="container">
+      <!-- Output -->
+      <div class="display">
+        <!-- dispay setelah user menginputkan operator -->
+        <div class="second-display"></div>
+        <!-- input utama -->
+        <div class="first-display">0</div>
+      </div>
+
+      <!-- Berisi angka dan operator -->
+      <ul class="numpad">
+        <li id="clear-all" class="blue">C</li>
+        <li id="percent" class="operator blue">%</li>
+        <li id="delete" class="blue">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12 9.75 14.25 12m0 0 2.25 2.25M14.25 12l2.25-2.25M14.25 12 12 14.25m-2.58 4.92-6.374-6.375a1.125 1.125 0 0 1 0-1.59L9.42 4.83c.21-.211.497-.33.795-.33H19.5a2.25 2.25 0 0 1 2.25 2.25v10.5a2.25 2.25 0 0 1-2.25 2.25h-9.284c-.298 0-.585-.119-.795-.33Z"
+            />
+          </svg>
+        </li>
+        <li id="division" class="operator yellow">/</li>
+        <li class="numpad-item">7</li>
+        <li class="numpad-item">8</li>
+        <li class="numpad-item">9</li>
+        <li id="multiplication" class="operator yellow">x</li>
+        <li class="numpad-item">4</li>
+        <li class="numpad-item">5</li>
+        <li class="numpad-item">6</li>
+        <li id="substraction" class="operator yellow">-</li>
+        <li class="numpad-item">1</li>
+        <li class="numpad-item">2</li>
+        <li class="numpad-item">3</li>
+        <li id="plus" class="operator yellow">+</li>
+        <li id="signToggle">+/-</li>
+        <li class="numpad-item">0</li>
+        <li class="numpad-item">.</li>
+        <li id="equals" class="yellow">=</li>
+      </ul>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
